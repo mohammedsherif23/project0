@@ -1,0 +1,9 @@
+* {
+    box-sizing: border-box;
+}
+body {
+    border: 3p solid red;
+}
+h1 {
+    border: 3px solid blue;
+}
