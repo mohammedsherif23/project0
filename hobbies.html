@@ -3,26 +3,29 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
     <link rel="stylesheet" href="style.css">
     <title>Document</title>
 </head>
 <body>
+   
     <h1>My Hobbies</h1>
+     <!-- The classes use below are from bootstrap-->
     <div>
         <h2>Below are some of my Hobbies</h2>
-        <ul>
-            <li>Playing football</li>
-            <li>Playing FiFa game</li>
-            <li>Listining music</li>
-            <li>Reading</li>
+        <ul class="list-group">
+            <li class="list-group-item">Playing football</li>
+            <li class="list-group-item">Playing FiFa game</li>
+            <li class="list-group-item">Listining music</li>
+            <li class="list-group-item">Reading</li>
         </ul>
     </div>
-    <img src="./images/me.jpg" width="300" alt="image">
-    <br>
+    <img class="mypic" src="./images/me.jpg" alt="image">
+        <!-- The classes use on the links are from bootstrap-->
     <div>
-        <a href="index.html">About</a>
-        <a href="table.html">info</a>
-        <a href="friends.html">friends</a>
+        <a class="btn btn-primary" href="index.html">About</a>
+        <a class="btn btn-primary" href="table.html">info</a>
+        <a class="btn btn-primary" href="friends.html">friends</a>
     </div>
     
 </body>
