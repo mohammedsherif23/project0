@@ -3,32 +3,33 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
     <link rel="stylesheet" href="style.css">
     <title>My web page</title>
 </head>
 <body>
-    <h1>About Me</h1>
-    <div>
-        <p>Hi, My name is Mohammed v Sherif I live in Monrovia the capital of Liberia. I graduated from <em>Wells Hairston Institute</em>   </p>
+    <article>
+       <h1>About Me</h1> 
+        <p><img  src="./images/me.jpg" alt="image" class="float-left"> Hi, My name is Mohammed v Sherif I live in Monrovia the capital of Liberia. I graduated from <em>Wells Hairston Institute</em></p>
         <p>In 2017 I travel to china where I currently reside, to further my education. I enroll at <em>Wuchag University of Science and Technology<em> located in the city of <strong>Wuhan</strong></p>
-    </div>
-    <img id="mypic" src="./images/me.jpg" alt="image">
-    
-    <div>
-        <h2>5 favorite movies</h2>
-        <ul>
-            <li>We Where Soldiers</li>
-            <li>Rules of Engagement</li>
-            <li>Black Haulk Down</li>
-            <li>Blacklist</li>
-            <li>Tears of the Sun</li>
+    </article>
+    <br>
+    <article>
+        <h2>My 5 favorite movies</h2>
+        <!-- The classes use on the list are from bootstrap-->
+        <ul class="list-group">
+            <li class="list-group-item list-group-item-primary">We Where Soldiers</li>
+            <li class="list-group-item list-group-item-secondary">Rules of Engagement</li>
+            <li class="list-group-item list-group-item-dark">Black Haulk Down</li>
+            <li class="list-group-item list-group-item-info">Blacklist</li>
+            <li class="list-group-item list-group-item-warning">Tears of the Sun</li>
         </ul>
+    </article>
+      <!-- The classes use on the links are from bootstrap-->
+    <div id="btn">
+        <a class="btn btn-primary" href="hobbies.html">Hobbies</a>
+        <a class="btn btn-primary" href="table.html">info</a>
+        <a class="btn btn-primary" href="friends.html">friends</a>
     </div>
-    <div>
-        <a href="hobbies.html">Hobbies</a>
-        <a href="table.html">info</a>
-        <a href="friends.html">friends</a>
-    </div>
-  
 </body>
 </html>
