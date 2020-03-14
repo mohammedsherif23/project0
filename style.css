@@ -5,6 +5,20 @@ body {
     background-color: #A1AECF;
    
 }
+@media(max-width:575px) {
+    .container{
+        background-color: #D6FF9C;
+    }
+}
+@media(max-width:575px) {
+    .container > img {
+        width: 35%;
+    }
+}
+
+
+
+
 h1 {
     font-family: Arial, Helvetica, sans-serif;
     text-align: center;
