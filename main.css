@@ -1,0 +1,21 @@
+#simple ul {
+  background-color: #CDD0ff;
+  color: #295a3f;
+  list-style-type: none;
+  padding: 10px;
+  margin: 20px 20%;
+}
+
+#simple li {
+  font-size: 30px;
+  font-weight: normal;
+  font-family: Arial, Helvetica, sans-serif;
+  padding-bottom: 20px;
+}
+
+.main {
+  text-align: center;
+  border-radius: 10px;
+  background: linear-gradient(45deg, #1b5858, rgba(204, 255, 231, 0.753));
+}
+/*# sourceMappingURL=main.css.map */

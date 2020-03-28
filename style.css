@@ -2,8 +2,7 @@
     box-sizing: border-box;
 }
 body {
-    background-color: #A1AECF;
-   
+    background-color: #A1AECF; 
 }
 @media(max-width:575px) {
     .container{
@@ -13,22 +12,22 @@ body {
 h1 {
     font-family: Arial, Helvetica, sans-serif;
     text-align: center;
-    font-size: 40px;
+    font-size: 35px;
     font-weight: bold;
     padding: 0.5rem 0;
     margin-bottom: 3px;
 }
+
 h2 {
     font-size: 30px;
     font-weight: bold;
     padding: 3px 3px;
     margin-bottom: 0;
 }
-p {
-    margin: 0;
-    padding: 3px;
-    padding-bottom: 0;
-    text-indent: 3px;
+#paragraph {
+    font-size: 25px;
+   margin: 10px 25%;
+   padding: 15px 10px;
 }
 table {
     font-size: 40px;
@@ -45,19 +44,6 @@ td {
     text-align: center;
     padding: 2px;
 }
-ul {
-    list-style-type: none;
-    padding: 0;
-    margin-top: 0;
-    
-}
-li {
-    font-size: 30px;
-    font-weight: normal;
-    font-family: Arial, Helvetica, sans-serif;
-    padding-bottom: 10px;   
-}
-
 a {
     font-size: 35px;
     font-weight: bold;
@@ -91,9 +77,11 @@ article{
 .mypic {
     width: 50%;
     margin-top: 5px;
+    border-radius: 999px!important;
 }
 img{
     width: 50%;
+    border-radius: 15px;
 }
 #tbl  {
     text-align: center;
@@ -117,3 +105,26 @@ img{
     padding: 10px;
     margin:0.5px;
 } 
+.friends{
+    background: linear-gradient(45deg,#58ADF5, #5B71B7);
+}
+.hobbies {
+    text-align: center;
+}
+#hobbies li{
+    margin: 10px 25%;
+}
+.grid{
+    background-color: #ffff;
+    display: grid;
+    padding: 10px;
+    grid-column-gap: 15px;
+    grid-row-gap: 10px;
+    grid-template-columns: auto auto auto;
+}
+.grid-item{
+    background-color: royalblue;
+    font-size: 20px;
+    font-weight: bold;
+    padding: 10px;
+}
