@@ -5,12 +5,7 @@ body {
     background-color: #A1AECF; 
     margin: 0px;
 }
-/*
-@media(max-width:575px) {
-    .container{
-        background-color: #D6FF9C;
-    }
-} */
+
 nav {
     background-color:#69C6E8;
     display: flex;
@@ -25,19 +20,23 @@ nav {
     right: 0;
   } 
 nav a {
-
     margin: 10px;
     display: flex;
     text-decoration: none;
+    color: #000000;
+}
+a:hover {
+    background-color: #F03E22;
+    border-radius: 3px;
+    text-decoration: none;
+    color: #ffff;
 }
 header {
-    border: 3px solid blue;
     margin: 30px 0;
     padding: 30px;
 }
 
 h1 {
-    border: 3px solid red;
     font-family: Arial, Helvetica, sans-serif;
     text-align: center;
     font-size: 30px;
@@ -51,6 +50,10 @@ h2 {
     font-weight: bold;
     padding: 3px 3px;
     margin-bottom: 0;
+    text-align: center;
+}
+h3 {
+    margin: 10px;
 }
 .paragraph {
     font-size: 25px;
@@ -58,20 +61,24 @@ h2 {
    padding: 15px 10px;
 }
 table {
-    font-size: 40px;
-    margin: auto;
+    background-color: cyan;
+    border: 2px solid black;
+    font-size: 30px;
+    margin: 0 auto;
+    margin-bottom: 30px;
     border-collapse: collapse;
     width: 50%;
 }
+
+th, td {
+    border: 1px solid black;
+    text-align: center;
+    padding: 5px;
+}
 th {
-    text-align: center;
-    margin-left: 1px;
-    padding: 0;
+    background-color: royalblue ;
 }
-td {
-    text-align: center;
-    padding: 2px;
-}
+
 .mypic {
     width: 50%;
     margin-top: 5px;
@@ -93,8 +100,10 @@ main {
     justify-content: center;
     margin: 10px 15%;
 }
-.section {
-
+q {
+    font-size: 25px;
+    margin: 15px;
+    padding: 15px;
 }
 
 footer {
@@ -103,12 +112,6 @@ footer {
     background-color:#2BE3C2;
     padding: 15px;
 }
-
-
-
-
-
-
 
 .grid{
     background-color: #ffff;
@@ -119,8 +122,30 @@ footer {
     grid-template-columns: auto auto auto;
 }
 .grid-item{
-    background-color: royalblue;
+    background-color: #E03C2D;
     font-size: 20px;
     font-weight: bold;
     padding: 10px;
+}
+@media (max-width: 699px) {
+    nav a {
+      margin: 25px;
+    }
+    nav {
+        background-color: brown;
+        justify-content: center;
+    }
+    h1 {
+        margin-top: 50px;
+        padding: 20px;
+    }
+    #small-hobbies {
+        margin-top: 50px;
+        margin-bottom: 30px;
+        padding: 20px;
+    }
+    .hobbies {
+        margin-top: 0px;
+        margin-bottom: 10px;
+    }
 }
